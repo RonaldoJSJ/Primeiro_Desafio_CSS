@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+div {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    margin-top: 47px;
+    margin-bottom: 176px;
+
+}
+
+.header-font {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #17233D;
+    cursor: pointer;
+    margin-left: 42px;
+
+}
+
+.sing_up {
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-left: 32px;
+}
+
+.logo-image {
+    width: 595.18px;
+    height: 500px;
+    margin-left: 121px;
+
+}
+
+section {
+    display: inline-block;
+    width: 582px;
+    height: 164px;
+
+
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    margin-bottom: 47px;
+    margin-left: 84.82px;
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 183%;
+    color: #4B505A;
+    margin-left: 84.82px;
+    margin-bottom: 55px;
+
+}
+
+a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6FBF44;
+    cursor: pointer;
+    margin-left: 84.98px
+}
+
+
+@media screen and (max-width: 900px) {
+
+   
+    h1 {
+        width: 278px;
+        height: 60px;
+        line-height: 40px;
+        top: -440px;
+        left: 0px;
+        margin: auto;
+        position: relative;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        color: #161A49;
+    }
+
+    p {
+
+        margin: auto;
+        width: 304px;
+        height: 165px;
+        position: relative;
+        top: -400px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #4B505A;
+    }
+
+    section {
+        width: 100vw;
+        height: 55vh;
+    }
+
+    .logo-image {
+        width: 312px;
+        height: 288px;
+        position: relative;
+        margin: auto;
+        top: 240px;
+        display:block;
+    }
+    .header-font {
+        display: none;
+    }
+    .sing_up{
+        position: relative;
+        display:block;
+        left: 30%;
+        margin: auto;
+        top: -25px;
+    }
+
+    a{
+        
+        left: 38%;
+        margin: auto;     
+        position: relative;
+        top: -370px;
+        
+       
+    }
+}
